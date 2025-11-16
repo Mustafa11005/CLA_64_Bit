@@ -98,19 +98,19 @@ CLA_4_bit.sv
 CLA_top.sv
 CLA_tb.sv
 
-###📊 Results
+### 📊 Results
 Simulation Results
 Total Tests: 1100
 Passed Tests: 1100 (100%)
 Failed Tests: 0
 Status: ALL TESTS PASSED ✓
 
-##FPGA Implementation (VCU118 Board)
+## FPGA Implementation (VCU118 Board)
 Resource | Utilization | Available | Utilization %
 LUT	     |    136	     |  134,600	 |    0.10%
 I/O	     |    194	     |    500	   |    38.80%
 
-###⚠️ Limitations
+### ⚠️ Limitations
 
 1- Parameter Constraints:
     - DATA_WIDTH must be a power of 4 (4, 16, 64, 256, ...)
@@ -124,7 +124,7 @@ I/O	     |    194	     |    500	   |    38.80%
     - Optimal for power-of-4 bit widths
     - Suboptimal for other bit widths
 
-###🧪 Test Coverage
+### 🧪 Test Coverage
 The testbench includes comprehensive verification:
     - ✅ Corner cases (all zeros, all ones, max values)
     - ✅ Power-of-2 additions
@@ -133,13 +133,13 @@ The testbench includes comprehensive verification:
     - ✅ Random vectors (1000+ tests)
     - ✅ Near-overflow stress tests
 
-###📚 References
+### 📚 References
 
     - Parhami, B. (2010). Computer Arithmetic: Algorithms and Hardware Designs (2nd ed.). Oxford University Press. (Chapter 6)
     - UCSB ECE 252B, Spring 2020, Lecture 4: Carry-Lookahead Adders
     - IEEE Standard 1800-2017 - SystemVerilog Language Reference Manual
 
-###👥 Author
+### 👥 Author
 Mustafa Tamer EL-Sherif
 
 Email: elsherifmustafa04@gmail.com
@@ -150,7 +150,7 @@ LinkedIn: Mustafa El-Sherif
 
 Organization: IEEE ASU Student Branch, Digital IC Design Team
 
-###🔗 Links
+### 🔗 Links
 [IEEE ASU Student Branch](https://ieee.asu.edu.eg/)
 
 [VCU118 Board Documentation](https://www.xilinx.com/products/boards-and-kits/vcu118.html)
