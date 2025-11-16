@@ -17,7 +17,6 @@ module cla_4bit (
     input  logic p2_i   ,
     input  logic g3_i   ,
     input  logic p3_i   ,
-
     output logic c1_o   ,
     output logic c2_o   ,
     output logic c3_o   ,

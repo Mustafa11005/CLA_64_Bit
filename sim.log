@@ -1,0 +1,596 @@
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:12:01 on Nov 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.Sum_blk(fast)
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[4]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[0]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[8]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[0]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[12]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[0]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[20]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[1]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[24]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[1]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[28]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[1]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[36]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[2]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[40]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[2]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[44]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[2]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[52]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[3]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[56]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[3]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[60]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[1]/genblk1/level_groups[3]/cla_tree File: CLA_top.sv Line: 80
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[16]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[2]/genblk1/cla_tree File: CLA_top.sv Line: 99
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[32]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[2]/genblk1/cla_tree File: CLA_top.sv Line: 99
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[48]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[2]/genblk1/cla_tree File: CLA_top.sv Line: 99
+# ** Error (suppressible): (vsim-3839) Variable '/top_tb/DUT/carry[64]', driven via a port connection, is multiply driven. See CLA_top.sv(51).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/cla_levels[2]/genblk1/cla_tree File: CLA_top.sv Line: 99
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 4
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:14:03 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:14:04 on Nov 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:12:01 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.Sum_blk(fast)
+# ** Note: $stop    : CLA_tb.sv(57)
+#    Time: 70 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 57
+add wave -position insertpoint  \
+sim:/top_tb/DUT/DATA_WIDTH \
+sim:/top_tb/DUT/MAX_NUM_GROUPS \
+sim:/top_tb/DUT/NUM_LEVELS \
+sim:/top_tb/DUT/A \
+sim:/top_tb/DUT/B \
+sim:/top_tb/DUT/cin \
+sim:/top_tb/DUT/sum \
+sim:/top_tb/DUT/cout \
+sim:/top_tb/DUT/g_l0 \
+sim:/top_tb/DUT/p_l0 \
+sim:/top_tb/DUT/g_hier \
+sim:/top_tb/DUT/p_hier \
+sim:/top_tb/DUT/carry
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.Sum_blk(fast)
+run -all
+# ** Note: $stop    : CLA_tb.sv(57)
+#    Time: 70 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 57
+add wave -position insertpoint {sim:/top_tb/DUT/cla_levels[1]/genblk1/level_groups[0]/*}
+# ** UI-Msg: (vish-4014) No objects found matching '/top_tb/DUT/cla_levels[1]/genblk1/level_groups[0]/*'.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:21:12 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:21:12 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:21:14 on Nov 16,2025, Elapsed time: 0:09:13
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:21:14 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.Sum_blk(fast)
+# ** Note: $stop    : CLA_tb.sv(57)
+#    Time: 70 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 57
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:23:25 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	gp_gen
+# 	Sum_blk
+# 	cla_4bit
+# 	top_tb
+# End time: 23:23:25 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:23:27 on Nov 16,2025, Elapsed time: 0:02:13
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:23:27 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(73): Module 'gp4_from_bits' is not defined.
+# ** Error: CLA_top.sv(109): Module 'gp_combine4' is not defined.
+# ** Error: CLA_top.sv(109): Module 'gp_combine4' is not defined.
+# ** Error: CLA_top.sv(109): Module 'gp_combine4' is not defined.
+# ** Error: CLA_top.sv(109): Module 'gp_combine4' is not defined.
+# ** Error: CLA_top.sv(109): Module 'gp_combine4' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=21, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 4
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:24:21 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp4_from_bits
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	gp_gen
+# 	Sum_blk
+# 	cla_4bit
+# 	top_tb
+# End time: 23:24:21 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:23:27 on Nov 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp4_from_bits(fast)
+# Loading work.gp_combine4(fast)
+# ** Note: $stop    : CLA_tb.sv(57)
+#    Time: 70 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 57
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:27:36 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp4_from_bits
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	gp_gen
+# 	Sum_blk
+# 	cla_4bit
+# 	top_tb
+# End time: 23:27:36 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:27:39 on Nov 16,2025, Elapsed time: 0:04:12
+# Errors: 23, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:27:39 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp4_from_bits(fast)
+# Loading work.gp_combine4(fast)
+# ** Note: $stop    : CLA_tb.sv(49)
+#    Time: 1040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 49
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:29:41 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp4_from_bits
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	gp_gen
+# 	Sum_blk
+# 	cla_4bit
+# 	top_tb
+# End time: 23:29:41 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:29:44 on Nov 16,2025, Elapsed time: 0:02:05
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:29:44 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp4_from_bits(fast)
+# Loading work.gp_combine4(fast)
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 1040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:41:58 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp4_from_bits
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	Sum_blk
+# 	gp4_from_bits
+# 	top_tb
+# End time: 23:41:58 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:42:00 on Nov 16,2025, Elapsed time: 0:12:16
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:42:00 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.gp_combine4(fast)
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 1040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55
+# Causality operation skipped due to absence of debug database file
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:53:35 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:53:35 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# #1дн  sltx b#NTA#1ъл  
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:53:38 on Nov 16,2025, Elapsed time: 0:11:38
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:53:38 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): CLA_top.sv(114): (vopt-13259) Missing instance name in instantiation of module/program/interface 'Sum_blk'.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 4
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:53:52 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:53:52 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:53:38 on Nov 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.gp_combine4(fast)
+# Loading work.Sum_blk(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (17) for port 'cin'. The port definition is at: Sum_blk.sv(14).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/DUT/SUM File: CLA_top.sv Line: 114
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 1040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:54:35 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:54:35 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:54:37 on Nov 16,2025, Elapsed time: 0:00:59
+# Errors: 3, Warnings: 2
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:54:37 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.gp_combine4(fast)
+# Loading work.Sum_blk(fast)
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 1040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:58:31 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# ** Error: CLA_top.sv(83): External function 'ceil' may not be used in a constant expression.
+# ** Error: CLA_top.sv(83): Parameter value must be constant.
+# -- Compiling module top_tb
+# End time: 23:58:31 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 3
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -f src_files.list +cover -covercells"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:58:41 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:58:41 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:58:43 on Nov 16,2025, Elapsed time: 0:04:06
+# Errors: 3, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:58:44 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.gp_combine4(fast)
+# Loading work.Sum_blk(fast)
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 1040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 23:59:08 on Nov 16,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module gp_combine4
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 23:59:08 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 23:59:11 on Nov 16,2025, Elapsed time: 0:00:27
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 23:59:11 on Nov 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.gp_combine4(fast)
+# Loading work.Sum_blk(fast)
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 10040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 00:05:46 on Nov 17,2025
+# vlog -reportprogress 300 -f src_files.list "+cover" -covercells 
+# -- Compiling module gp_gen
+# -- Compiling module Sum_blk
+# -- Compiling module cla_4bit
+# -- Compiling module CLA_top
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 00:05:46 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (D:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/cla_q.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 00:05:48 on Nov 17,2025, Elapsed time: 0:06:37
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc" work.top_tb -coverage -l sim.log 
+# Start time: 00:05:48 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.CLA_top(fast)
+# Loading work.gp_gen(fast)
+# Loading work.cla_4bit(fast)
+# Loading work.Sum_blk(fast)
+# ** Note: $stop    : CLA_tb.sv(55)
+#    Time: 10040 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at CLA_tb.sv line 55

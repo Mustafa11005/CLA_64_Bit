@@ -1,0 +1,210 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N/.git
+T_opt
+!s110 1763330748
+V_JddXhiRB0Jgf_UEc@mok1
+04 6 4 work top_tb fast 0
+=1-aac1887c0c94-691a4abc-23e-45b8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vcla_4bit
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1763330746
+!i10b 1
+!s100 926[R5K9Qn2eGa=ao4P5g2
+IjBX=@><[eak0;5Az^E`g30
+S1
+Z4 dD:/Mustafa/Projects/Digital_Design/CLA_64_Bit_N
+w1763329315
+8CLA_4_bit.sv
+FCLA_4_bit.sv
+!i122 15
+L0 10 33
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1763330746.000000
+Z8 !s107 CLA_tb.sv|CLA_top.sv|CLA_4_bit.sv|Sum_blk.sv|GP_gen.sv|
+Z9 !s90 -reportprogress|300|-f|src_files.list|+cover|-covercells|
+!i113 0
+Z10 !s102 +cover -covercells
+Z11 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vCLA_top
+R2
+R3
+!i10b 1
+!s100 gkdLKoZaYRXzE?P<a[M:F0
+ID?H>l7eKL3:ZOW9kWz3zn1
+S1
+R4
+w1763330742
+Z12 8CLA_top.sv
+Z13 FCLA_top.sv
+!i122 15
+L0 1 116
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+n@c@l@a_top
+vgp4_from_bits
+R2
+!s110 1763329318
+!i10b 1
+!s100 N<Wj7m>]_Qje`5;IoUBLc3
+Izzf;mJD@fj_TNC7aBRU6m3
+S1
+R4
+w1763329314
+R12
+R13
+!i122 8
+L0 5 14
+R5
+R6
+r1
+!s85 0
+31
+!s108 1763329318.000000
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vgp_combine4
+R2
+!s110 1763330348
+!i10b 1
+!s100 JGf5mFHNL69[7Lb;bk]Ci3
+I9Q_Z94>;kNllZ1O[UdN^n3
+S1
+R4
+w1763330345
+R12
+R13
+!i122 14
+L0 4 7
+R5
+R6
+r1
+!s85 0
+31
+!s108 1763330348.000000
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vgp_gen
+R2
+R3
+!i10b 1
+!s100 5F4VcbLIW=^:;P31lBGda0
+I?ZVVgbVd76:>PfLZQl1AV1
+S1
+R4
+w1763322238
+8GP_gen.sv
+FGP_gen.sv
+!i122 15
+L0 10 16
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vSum_blk
+R2
+R3
+!i10b 1
+!s100 AZ0;6FRbg^61Lf=KKSIG<3
+I0fgom5lT]jiC0F`R3?e]U1
+S1
+R4
+w1763314015
+8Sum_blk.sv
+FSum_blk.sv
+!i122 15
+L0 10 11
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+n@sum_blk
+vtop_tb
+R2
+R3
+!i10b 1
+!s100 JXX5TlY69;2GKF6>AhXKY1
+IlNilB8]OUS:aPCj0QMl8D0
+S1
+R4
+w1763330344
+8CLA_tb.sv
+FCLA_tb.sv
+!i122 15
+L0 1 58
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
