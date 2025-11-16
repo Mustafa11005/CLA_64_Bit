@@ -64,18 +64,19 @@ module CLA_top #(
     output logic [DATA_WIDTH-1:0] sum,  // Sum output
     output logic                  cout  // Carry output
 );
+```
 
-cla_4bit
+##cla_4bit
 Inputs: cin, g0_i, p0_i, g1_i, p1_i, g2_i, p2_i, g3_i, p3_i
 
 Outputs: c1_o, c2_o, c3_o, c4_o, p_o, g_o
 
 Function: 4-bit carry network with group propagate/generate
 
-gp_gen
+##gp_gen
 Function: Computes bit-level generate (A & B) and propagate (A ^ B) signals
 
-Sum_blk
+##Sum_blk
 Function: Final sum calculation using sum = p_i ^ cin
 
 ###🚀 Usage
