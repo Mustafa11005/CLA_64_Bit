@@ -126,11 +126,16 @@ I/O	     |    194	     |    500	   |    38.80%
 
 ### 🧪 Test Coverage
 The testbench includes comprehensive verification:
-    - ✅ Corner cases (all zeros, all ones, max values)
+    - ✅ Corner cases (all zeros, all ones, max values).
+    
     - ✅ Power-of-2 additions
+    
     - ✅ Alternating bit patterns
+    
     - ✅ Sequential values
+    
     - ✅ Random vectors (1000+ tests)
+    
     - ✅ Near-overflow stress tests
 
 ### 📚 References
