@@ -1,5 +1,5 @@
-GP_gen.sv
 Sum_blk.sv
+GP_gen.sv
 CLA_4_bit.sv
 CLA_top.sv
 CLA_tb.sv
