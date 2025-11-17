@@ -12,6 +12,3 @@ run -all
 #quit -sim
 
 #vcover report CLA.ucdb -details -annotate -all -output CLA_coverage_rpt.txt
-
-
-
