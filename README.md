@@ -22,7 +22,7 @@ This implementation features a multi-level hierarchical CLA architecture that co
 ### Block Diagram
 
 CLA_top (N-bit)
-├── gp_gen (Generate/Propagate)
+├── gp_gen (Generate/Propagate)<br>
 ├── Level 0: N/4 × cla_4bit (4-bit groups)
 ├── Level 1: N/16 × cla_4bit (16-bit groups)
 ├── ...
