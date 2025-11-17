@@ -140,9 +140,9 @@ The testbench includes comprehensive verification:
 
 ### 📚 References
 
-    - Parhami, B. (2010). Computer Arithmetic: Algorithms and Hardware Designs (2nd ed.). Oxford University Press. (Chapter 6)<br>
-    - UCSB ECE 252B, Spring 2020, Lecture 4: Carry-Lookahead Adders<br>
-    - IEEE Standard 1800-2017 - SystemVerilog Language Reference Manual<br>
+    - Parhami, B. (2010). Computer Arithmetic: Algorithms and Hardware Designs (2nd ed.). Oxford University Press. (Chapter 6)
+    - UCSB ECE 252B, Spring 2020, Lecture 4: Carry-Lookahead Adders
+    - IEEE Standard 1800-2017 - SystemVerilog Language Reference Manual
 
 ### 👥 Author
 Mustafa Tamer EL-Sherif
